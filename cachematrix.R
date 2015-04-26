@@ -52,7 +52,7 @@ cacheSolve <- function(x, ...) {
     inv
 }
 
-## Test code to a simple functional test
+## Do a simple functional test
 testCacheSolve <- function() {
     ## Create a 2x2 matrix 
     x = rbind(c(1, -1/4), c(-1/4, 1))
